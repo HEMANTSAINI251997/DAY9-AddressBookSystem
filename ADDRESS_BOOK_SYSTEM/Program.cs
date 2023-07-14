@@ -11,8 +11,8 @@ namespace ADDRESS_BOOK_SYSTEM
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME TO ADDRESS BOOK");
-            AddressBook addressbook = new AddressBook();
-            addressbook.Checkaddressbook();
+            Contacts contacts = new Contacts();
+            contacts.CheckContacts();
         }
     }
 }
